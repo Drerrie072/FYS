@@ -1,29 +1,35 @@
 
 #menubalk {
 	text-align:center;
-    color: black;
 	background-color: #ec1313;
 	border:solid 5px #ec1313;
 	margin-bottom: 35px;
 	width: 100%;
     padding-bottom: 20px;
     padding-top:  15px;
+    border-style: outset;
+    border-color: #edc821;
 }
 
 
 #menubalk a {
-	text-decoration:none;
+    border: 5px black;
+	color:#edc821 ;
 	padding-left: 28px;
 	padding-right: 28px;
 	padding-top:15px;
 	padding-bottom:20px;
 	font-size:20px;
+    border-style: outset;
+    border-color: #edc821;
+    
 }
 
 #menubalk a:hover {
 	background-color: #edc821;
 	color:#000000;
 	text-decoration:none;
+    
 }
 
 
@@ -32,7 +38,71 @@
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: #ec1313;
     font-weight: ;
+        
+}
+
+#tabelMoSCoW{
+    border-style: outset;
+    border-color:black;
+    background-color: #edc821;
+	color:aqua;
+	text-decoration:none;
+    
+}
+
+
+#logo {
+  border-left-width: thick;
+    background-color: white;
+    width: auto;
+    border-color: black;
+    border: 20px;
+    
+}
+
+body{
+    background-image: url(images/BackgroundImage.jpg)
+}
     
     
     
+
+#text{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid #edc821;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
