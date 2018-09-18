@@ -8,30 +8,39 @@
             color:royalblue;
 
         }
-        table {
-            width:100%;
-        }
+        .req-txt{
+            font-size:20px;
+            font-weight:bold;
+            color:royalblue;
 
+        }
+        .dodgerblue,lightskyblue,lightblue {
+
+        }
         .req-head {
-            background-color:dodgerblue;
+            background-color: #114A9F;
             border: 1px solid white;
             color:white;
-
-
+            width:500px;
+            box-sizing:border-box;
         }
-        .req-tr {
-            background-color:blue;
+        .req-head-small-disable {
+            background-color: #114A9F;
+            border: 1px solid white;
+            color:white;
+            width:20px;
+        }
+        .req-td {
+            background-color:#CCD0DF;
             border: 1px solid white;
             border-collapse: collapse;
-            color:white;
-            width:100%;
+            color:black;
         }
         span.req-td {
-            background-color:lightblue;
+            background-color:#E7E9F0;
             border: 1px solid white;
             border-collapse: collapse;
-            color:white;
-            width:100%;
+            color:black
         }
     </style>
     <meta charset="UTF-8"/>
@@ -47,24 +56,6 @@
 
 <a href="HTML-CSS%20Test.html" alt="Terug naar hoofdpagina"> Terug naar de hoofdpagina </a>
 <p></p>
-<!--
-<ul>
-    <li>Kijk maar!</li>
-    <li>En dit ook</li>
-    <li>En deze</li>
-
-</ul>
-
-<p> Maar we kunnen ook zo'n lijst doen</p>
-<ol style="background-color: blanchedalmond; color: darkblue">
-
-<li>Zodoende </li>
-<li>hebben</li>
-<li>we toch</li>
-<li>een degelijke</li>
-<li>lijst</li>
-</ol>
--->
 <ul>
     <li>
         <p class="req-txt"> Thema Wetgeving (WET)</p>
@@ -74,9 +65,9 @@
                 <th class="req-head">Requirement</th>
                 <th class="req-head">Prioriteit</th>
             </tr>
-            <tr class="req-tr">
-                <td>  WET-001</td>
-                <td> <span De site moet conform de wet privacy persoonsgegevens zijn /> </td>
+            <tr class="req-td">
+                <td>WET-001</td>
+                <td>De site moet conform de wet privacy persoonsgegevens zijn </td>
                 <td>Must </td>
             </tr>
         </table>
@@ -84,14 +75,14 @@
     <li>
         <p class="req-txt"> Thema Prestatie (PRES)</p>
         <table>
-            <tr class="req-head">
-                <th>Req-nr</th>
-                <th>Requirement</th>
-                <th>Prioriteit</th>
+            <tr>
+                <th class="req-head">Req-nr</th>
+                <th class="req-head">Requirement</th>
+                <th class="req-head">Prioriteit</th>
             </tr>
-            <tr class="req-tr">
+            <tr class="req-td">
                 <td>PRES-001</td>
-                <td> <span De site moet slen reageren en binnen 1 seconde updaten wanneer een klant naar een nieuwe pagina gaat /></td>
+                <td>De site moet snel reageren en binnen 1 seconde updaten wanneer een klant naar een nieuwe pagina gaat</td>
                 <td>Should</td>
             </tr>
         </table>
@@ -99,14 +90,14 @@
     <li>
         <p class="req-txt"> Thema Uiterlijk (UIT)</p>
         <table>
-            <tr class="req-head">
-                <th>Req-nr</th>
-                <th>Requirement</th>
-                <th>Prioriteit</th>
+            <tr>
+                <th class="req-head">Req-nr</th>
+                <th class="req-head">Requirement</th>
+                <th class="req-head">Prioriteit</th>
             </tr>
-            <tr class="req-tr">
+            <tr class="req-td">
                 <td>UIT-001</td>
-                <td> <span De site moet een aantrekkelijk uiterlijk hebben dat ook doet denken aan Corendon /> </td>
+                <td>De site moet een aantrekkelijk uiterlijk hebben dat ook doet denken aan Corendon</td>
                 <td>Should</td>
             </tr>
         </table>
