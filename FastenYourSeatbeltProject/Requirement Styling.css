@@ -1,0 +1,25 @@
+        .req-txt{
+            font-size:20px;
+            font-weight:bold;
+            color:royalblue;
+
+        }
+        .req-head {
+            background-color: #114A9F;
+            border: 1px solid white;
+            color:white;
+            width:500px;
+            box-sizing:border-box;
+        }
+        .req-head-small-disable {
+            background-color: #114A9F;
+            border: 1px solid white;
+            color:white;
+            width:20px;
+        }
+        .req-td {
+            background-color:#CCD0DF;
+            border: 1px solid white;
+            border-collapse: collapse;
+            color:black;
+        }
